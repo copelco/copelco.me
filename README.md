@@ -1,5 +1,7 @@
 # Hugo Blog
 
+A [Hugo site](https://gohugo.io/) using the [Congo theme](https://github.com/jpanther/congo)
+
 Run:
 
 ```sh
