@@ -1,4 +1,4 @@
-module my-project
+module github.com/copelco/copelco.me
 
 go 1.17
 
