@@ -1,8 +1,21 @@
-# Hugo Blog
+# copelco.me
 
-A [Hugo site](https://gohugo.io/) using the [Congo theme](https://github.com/jpanther/congo)
+My [Hugo site](https://gohugo.io/) using the [Congo theme](https://github.com/jpanther/congo)
+
+Setup
+
+```sh
+go install -tags extended github.com/gohugoio/hugo@latest
+```
 
 Run:
+
+```sh
+hugo server -D
+hugo server --buildDrafts
+```
+
+Run Docker:
 
 ```sh
 docker compose up -d
