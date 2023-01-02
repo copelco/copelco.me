@@ -15,6 +15,12 @@ hugo server -D
 hugo server --buildDrafts
 ```
 
+New post example:
+
+```sh
+hugo new posts/create-bootable-usb-macos-command-line.md
+```
+
 Run Docker:
 
 ```sh
