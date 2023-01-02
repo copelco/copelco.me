@@ -1,6 +1,7 @@
 ---
 title: "Install Openwrt on VNOPN Micro Firewall Appliance"
 date: 2023-01-02T12:11:15-05:00
+tags: ["networking"]
 draft: true
 ---
 
@@ -26,7 +27,7 @@ flowchart LR
     router[AT&T ARRIS router] --> VNOPN --> switch[NETGEAR switch] --> aps[Access Points]
 {{< /mermaid >}}
 
-## Install OpenWRT
+## Install OpenWrt
 
 Connect a [USB flash drive with Ubuntu]({{< ref "../create-bootable-usb-macos-command-line" >}}) to the VNOPN appliance. (It's probably possible to pre-load your desired OpenWrt firmware onto the USB drive, but I just download it here. Make sure an ethernet cable to your upstream modem is connected to the **LAN 1** port.
 
@@ -68,7 +69,7 @@ Now plug an ethernet cable from your laptop into the LAN 1 port. You should see 
 
 ![Link active message in terminal photo](openwrt-link-active.jpeg)
 
-## Configure OpenWRT
+## Configure OpenWrt
 
 Connect to the web UI by accessing http://192.168.1.1 in your browser. By default, you can log in without using a password:
 

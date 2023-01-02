@@ -16,7 +16,7 @@ enableCodeCopy = true
 # robots = ""
 
 [header]
-  layout = "basic" # valid options: basic, hamburger, hybrid, custom
+  layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
   # logo = "img/logo.jpg"
   showTitle = true
 
@@ -36,24 +36,24 @@ enableCodeCopy = true
   showAuthor = true
   showBreadcrumbs = false
   showDraftLabel = true
-  showEdit = false
-  # editURL = "https://github.com/username/repo/"
+  showEdit = true
+  editURL = "https://github.com/copelco/copelco.me/tree/main/content/"
   editAppendPath = true
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
   showReadingTime = true
   showTableOfContents = true
-  showTaxonomies = false
-  showWordCount = false
+  showTaxonomies = true
+  showWordCount = true
   showComments = false
-  # sharingLinks = ["facebook", "twitter", "pinterest", "reddit", "linkedin", "email"]
+  sharingLinks = ["facebook", "twitter", "linkedin", "email"]
 
 [list]
   showBreadcrumbs = false
   showSummary = false
   showTableOfContents = false
-  showTaxonomies = false
+  showTaxonomies = true
   groupByYear = true
   paginationWidth = 1
 
