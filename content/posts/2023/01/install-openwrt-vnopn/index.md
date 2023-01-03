@@ -7,16 +7,16 @@ draft: true
 
 ![VNOPN device photo](vnopn.jpeg)
 
-I needed to replace my [UniFi Security Gateway](https://store.ui.com/products/unifi-security-gateway), which recently died, so I purchased a [VNOPN Micro Firewall Appliance](https://a.co/d/0fEIZwK) to run [OpenWrt](https://openwrt.org/). Coming from a managed Unifi device, the setup was new to me, so I've documented it below.
+I needed to replace my router, a [UniFi Security Gateway](https://store.ui.com/products/unifi-security-gateway), which recently died, so I purchased a [VNOPN Micro Firewall Appliance](https://a.co/d/0fEIZwK) to run [OpenWrt](https://openwrt.org/). Coming from a managed Unifi device, the setup was new to me, so I've documented it below.
 
 ## Prerequisites
 
 I started with these items:
 
 * [USB flash drive with Ubuntu]({{< ref "../create-bootable-usb-macos-command-line" >}})
-* Ethernet cables and possibly a USB ethernet adapter (I'm using the [D-Link USB C to Ethernet Adapter](https://a.co/d/bO4tqS5))
+* Ethernet cables and a [USB ethernet adapter](https://a.co/d/bO4tqS5)
 * The VNOPN appliance with a connected keyboard and monitor
-* [OpenWrt firmware image](https://openwrt.org/start) for your device. I used a [custom-built image](tobiasmcnulty/router-openwrt).by [Tobias McNulty](https://tobiasmcnulty.com/). Specifically, a disk image using the traditional OpenWrt layout: a squashfs read-only root filesystem and a read-write partition where settings and packages are stored.
+* [OpenWrt firmware image](https://openwrt.org/start) for your device. I used a [custom-built image](tobiasmcnulty/router-openwrt) by [Tobias McNulty](https://tobiasmcnulty.com/). Specifically, a disk image using the traditional OpenWrt layout: a squashfs read-only root filesystem and a read-write partition where settings and packages are stored.
 
 ## My basic network layout
 
