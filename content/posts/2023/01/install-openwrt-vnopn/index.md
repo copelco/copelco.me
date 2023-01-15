@@ -1,8 +1,8 @@
 ---
 title: "Install Openwrt on VNOPN Micro Firewall Appliance"
-date: 2023-01-02T12:11:15-05:00
+date: 2023-01-15T12:11:15-05:00
 tags: ["networking"]
-draft: true
+draft: false
 ---
 
 ![VNOPN device photo](vnopn.jpeg)
